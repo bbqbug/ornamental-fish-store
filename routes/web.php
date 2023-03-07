@@ -48,5 +48,3 @@ Route::prefix('admin')->group(function() {
 
     Route::get('users', [UserController::class, 'index'])->name('admin-index');
 });
-
-/*abc*/
